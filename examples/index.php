@@ -21,7 +21,7 @@ $status = 'ACTIVE';
 $bank = new Esyede\CekMutasi\Bank($apiKey, $apiSignature, $request);
 
 // Tambah rekening
-$addAccount = $bank->addAccount(
+$addAccount = $bank->add(
     $serviceCode,
     $packageCode,
     $username,
